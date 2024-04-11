@@ -27,15 +27,11 @@ public class cab {
 		System.out.println("");
 		System.out.println("Choose cab type !\n 1) Micro ( Rs.10 per km )\n 2) Mini ( Rs.15 per km )\n 3) Prime ( Rs.20 per km )");
 		System.out.println("");
-		
-		/*String cabType ;
-		System.out.println("Enter Cab Type :");
-		cabType = cf.next();*/
+	
 		double km ;
 		System.out.println("Enter number of km :");
 		km = cf.nextDouble();
-		
-		
+	
 		System.out.println("Enter you cab type : ");
 		char ty = cf.next().charAt(0);
 		double amount = 0;
@@ -58,6 +54,6 @@ public class cab {
 		
 	}	
 
-	}
+}
 
 
