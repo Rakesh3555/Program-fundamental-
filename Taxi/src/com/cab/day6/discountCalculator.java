@@ -1,15 +1,9 @@
 package com.cab.day6;
-
 import java.util.Scanner;
-
 public class discountCalculator {
-
-
-
 	public static double discab(double amount) {
 		Scanner dc = new Scanner(System.in);
 		
-		// TODO Auto-generated method stub
 		if(amount > 2000 && amount < 5000) {
 			System.out.println("You have discount of 2% !");
 			System.out.println("Do you wanna apply your coupon ? ");
@@ -17,11 +11,9 @@ public class discountCalculator {
 			if( ans1input == 'Y' || ans1input == 'y' ) 
 			
 			{
-				
 				System.out.println("Enter your coupon code : ");
 				String copcode =dc.next().toUpperCase().trim();
 				if(copcode.equalsIgnoreCase("COUP_2"))
-				
 				{
 					double coup1Amount = amount*0.02;
 					double finalAmount = amount - coup1Amount;
@@ -31,10 +23,7 @@ public class discountCalculator {
 				}
 			else if(ans1input == 'N' || ans1input == 'n') {
 				System.out.println("Your price is : "+amount);
-			}
-			
-				
-				
+			}	
 			}
 		else if(amount >= 5000)
 		{
