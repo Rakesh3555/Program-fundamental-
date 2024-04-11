@@ -14,16 +14,20 @@ public class OddEvenCube {
 
     public static void findOddEvenCubes(int num){
         System.out.println("Odd number until "+num+" : ");
-        for (int oi = 1 ; oi <= num ;oi++){
-            if(oi %2 !=0){
-                System.out.println(oi+"");
+        for (int oi = 1 ; oi <= num ;oi++) {
+            if (oi % 2 != 0) {
+                System.out.println(oi + "");
+            }
+        }
 
                 System.out.println();
 
                 System.out.println("Even numbers until "+num+" :");
-                for (int ei = 1 ; ei <= num ;ei++){
-                    if(ei %2 ==0){
-                        System.out.println(ei+"");
+                for (int ei = 1 ; ei <= num ;ei++) {
+                    if (ei % 2 == 0) {
+                        System.out.println(ei + "");
+                    }
+                }
 
                         System.out.println();
 
@@ -31,7 +35,4 @@ public class OddEvenCube {
                         System.out.println("Cube of n :"+cube);
             }
         }
-    }
-        }
-    }
-}
+
