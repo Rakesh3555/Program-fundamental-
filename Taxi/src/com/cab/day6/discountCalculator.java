@@ -49,8 +49,6 @@ public class discountCalculator {
 			else if(ans2input == 'N' || ans2input == 'n') {
 				System.out.println("Your price is : "+amount);
 			}
-			
-			
 			else
 			{
 				System.out.println(amount);
