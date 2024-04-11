@@ -1,7 +1,5 @@
 package com.cab.day6;
-
 import java.util.Scanner;
-
 public class Testfare {
 
 	public static void main(String[] args) {
