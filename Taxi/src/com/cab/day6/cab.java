@@ -20,7 +20,7 @@ Coupon Code:
 * COUP_5 means 5% discount on bill amount*/
 package com.cab.day6;
 import java.util.*;
-public class cab {
+public class Cab {
 	public static double cabFare() {
 		Scanner cf = new Scanner(System.in);
 		System.out.println("Taxi booking !");
